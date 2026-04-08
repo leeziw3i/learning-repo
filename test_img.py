@@ -4,5 +4,4 @@ print("Pillow 成功导入了！")
 img = Image.new('RGB', (100, 100), color = 'white')
 img.save('test.png')
 # 打印测试图片
-#这是第一次修改文件
 print("测试图片 test.png 已生成！")
