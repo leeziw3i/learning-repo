@@ -20,7 +20,7 @@ def generate_noise_images(count=100, width=2000, height=2000, save_dir='images')
         # 3. 将数组转换为图片对象
         img = Image.fromarray(noise_array)
 
-        # 4. 保存图片
+        # 4. 保存图片到本地
         file_path = os.path.join(save_dir, f'noise_{i:03d}.jpg')
         # 使用 quality=95 保证高清质量，如果你需要无损，可以改为 .png
         img.save(file_path, quality=95)
