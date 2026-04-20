@@ -29,7 +29,7 @@ def generate_noise_images(count=100, width=2000, height=2000, save_dir='images')
             print(f"进度: {i}/{count} 已完成")
 
     end_time = time.time()
-    print(f"\n生成完毕！总耗时: {end_time - start_time:.2f} 秒。")
+    print(f"\n生成完毕!总耗时: {end_time - start_time:.2f} 秒。")
     print(f"图片保存在: {os.path.abspath(save_dir)}")
 
 if __name__ == "__main__":
