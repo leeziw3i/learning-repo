@@ -233,3 +233,7 @@ obj/
 .DS_Store
 Thumbs.db
 .venv/
+#不存图片
+**/images/
+*.jpg
+*.png
